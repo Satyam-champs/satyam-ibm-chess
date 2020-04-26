@@ -3,19 +3,21 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 10vmin;
+  flex-direction: column;
   pointer-events: none;
+  padding-right: 1vmin;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
+  .App-logo1 {
     animation: App-logo-spin infinite 20s linear;
   }
 }
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 15vh;
   display: flex;
   flex-direction: column;
   align-items: center;
