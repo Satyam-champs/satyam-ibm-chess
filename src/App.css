@@ -24,11 +24,89 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  margin-bottom: 1pt;
+}
+.App1 {
+  text-decoration-color: aqua;
+  background-color: #282c34;
+  /* min-height: 15vh; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 1vmin);
+  color: rgb(238, 229, 229);
+  margin-top: 1pt;
+}
+.App2 {
+  text-decoration-color: aqua;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 1vmin);
+  color: rgb(238, 229, 229);
+  margin-top: 1pt;
+}
+.App3 {
+  text-decoration-color: aqua;
+  background-color: #282c34;
+  display: flex;
+  align-items: baseline;
+  justify-content: left;
+  font-size: calc(10px + 1vmin);
+  color: rgb(238, 229, 229);
+  margin-top: 1pt;
+  text-align: left;
+  border: crimson;
+}
+.App4 {
+  text-align: left;
+}
+.card {
+  margin: 10px 0 20px 0;
+  background-color: rgba(22, 186, 219, 0.2);
+  border-top-width: 0;
+  border-bottom-width: 2px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: crimson;
+}
+.card .card-heading {
+  padding: 0 20px;
+  margin: 0;
 }
 
+.card .card-heading.simple {
+  font-size: 20px;
+  font-weight: 300;
+  color: rgb(201, 48, 48);
+  border-bottom: 1px solid #e5e5e5;
+}
 .App-link {
   color: #61dafb;
 }
+.Player1{
+  color: rgb(235, 129, 91);
+}
+.Player2{
+  color: rgb(92, 219, 81);
+}
+.PlayerHeader{
+  color: rgb(27, 138, 230);
+}
+.cardcol{
+  column-count: 2 !important;
+  }
+
 
 @keyframes App-logo-spin {
   from {
