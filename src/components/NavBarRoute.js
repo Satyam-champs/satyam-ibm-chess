@@ -52,15 +52,15 @@ class NavBarRoute extends Component {
                     <Nav.Link href="/Scoreboard">Scoreboard</Nav.Link>
                     <Nav.Link href="/Schedule">Schedule</Nav.Link>
                     <Nav.Link href="/PlayerList">PlayerWise Stats</Nav.Link>
-                    <Nav.Link href="/GameRule">Rule</Nav.Link>
-                    <Nav.Link href="/Contact">Contact</Nav.Link>
+                    <Nav.Link href="/GameRule">Rules</Nav.Link>
+                    {/* <Nav.Link href="/Contact">Contact</Nav.Link> */}
                 </Nav>
             </Navbar>
             <Switch>
                 <Route exact path="/">
                 <PoolTeam data={data} todayDate={todayDate}/>
                 </Route> 
-                <Route path="/Scoreboard">
+                <Route exact path="/Scoreboard">
                     <Scoreboard data={data}/>
                 </Route> 
                 <Route path="/Schedule">

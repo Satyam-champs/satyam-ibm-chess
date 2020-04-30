@@ -18,7 +18,7 @@ const GameRule = () => {
     <ListGroup.Item action variant="info">4. All information related to schedule, result and timing will be updated here. As well as updated in the slack or mail. </ListGroup.Item>
     <ListGroup.Item action variant="warning">5. Before starting the match , please send your Invite link to me via any channel. So that I can update here for viewers interested in watching the game can enjoy.  </ListGroup.Item>
     <ListGroup.Item action variant="info">6. Try to finish your game in stipulated time. So everybody(player,opponents & viewers) can enjoy the match hassle free. </ListGroup.Item>
-    <ListGroup.Item action variant="info">Any more Information and Rules if it comes , will be updated here and to you via communication channel. Good Luck :) </ListGroup.Item>
+    <ListGroup.Item action variant="secondary">Any more Information and Rules if it comes , will be updated here and to you via communication channel. Good Luck :) </ListGroup.Item>
   </ListGroup>
 </Card>
         </div>
