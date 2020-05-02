@@ -10,7 +10,7 @@ const Schedule = ({ data,dateList }) => {
             <Table>
             <thead>
                     <tr>
-                        <th style={{ color: 'white' }}> Match Schedule (Date yet to be Anounced)</th>
+                        <th style={{ color: 'white' }}> Match Schedule </th>
                     </tr>
             </thead>
             </Table>

@@ -17,7 +17,7 @@ class NavBarRoute extends Component {
         super(props)
         this.state = {
           todayDate: '',
-          dateList :["date1","date2","date3","date4","date5"]
+          dateList :["4/5/2020","6/5/2020","8/5/2020"]
         }
       }
     
@@ -69,9 +69,6 @@ class NavBarRoute extends Component {
                 <Route path="/TodayMatchList">
                 <TodayMatchList data={data} todayDate={todayDate} dateList={dateList}/>
                 </Route> 
-                <Route path="/PoolTeam">
-                    <PoolTeam data={data} todayDate={todayDate}/>
-                </Route>
                 <Route path="/PlayerList">
                     <PlayerList/>
                 </Route> 

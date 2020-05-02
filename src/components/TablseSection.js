@@ -11,7 +11,7 @@ const TablseSection = ({ data, header }) => {
                 <Table>
                     <thead>
                         <tr>
-                            <th style={{ color: 'yellow' }}> {header}</th>
+                            <th style={{ color: 'yellow' }}> Date: {header}</th>
                         </tr>
                     </thead>
                 </Table>

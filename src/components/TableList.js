@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import '../App.css';
 import Table from 'react-bootstrap/Table'
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -38,8 +38,8 @@ const TableList = ({ data, matchDate }) => {
                     // console.log(this.state.count)
                     console.log("*********"+list)
                     if (!list.includes(obj[matchDate])) {
-                        { list.push(obj.Player) }
-                        { list.push(obj[matchDate]) }
+                        list.push(obj.Player) 
+                        list.push(obj[matchDate]) 
                         return <tr key={obj.Serial}>
                             <td className="Player1"> {obj[matchDate]}</td>
                             <td> {obj.result1}</td>
@@ -59,6 +59,7 @@ const TableList = ({ data, matchDate }) => {
                             {/* {console.log('myArray --->', this.state.myArray)} */}
                         </tr>
                     }
+                    // return <h1>No data found</h1>
 
                 })}
             </tbody>

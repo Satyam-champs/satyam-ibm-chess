@@ -10,28 +10,35 @@ var A = []
 var B = []
 var C = []
 var D = []
+var fin = []
 const PoolTeam = ({ data, todayDate }) => {
     const variant = ['Primary', 'Success', 'Danger', 'Warning', 'Primary', 'Success', 'Danger', 'Warning', 'Primary', 'Success', 'Danger', 'Warning', 'Primary', 'Success', 'Danger', 'Warning']
     //  cnt += 1;
+    {data.map(obj => {
+        const tm = obj.Team
+        console.log("call hua")
+
+        if (obj.Team === 'A') {
+            A.push(obj)
+        }
+        else if (obj.Team === 'B') {
+            B.push(obj)
+        }
+        else if (obj.Team === 'C') {
+            C.push(obj)
+        }
+        else if (obj.Team === 'D') {
+            D.push(obj)
+        }
+    })}
+    fin.push(A)
+    fin.push(B)
+    fin.push(C)
+    fin.push(D)
     return (
         <CardColumns className="cardcol">
-            {data.map(obj => {
-                const tm = obj.Team
-
-                if (obj.Team === 'A') {
-                    A.push(obj)
-                }
-                else if (obj.Team === 'B') {
-                    B.push(obj)
-                }
-                else if (obj.Team === 'C') {
-                    C.push(obj)
-                }
-                else if (obj.Team === 'D') {
-                    D.push(obj)
-                }
-            })}
-
+            
+            
             <Card
                 bg={'Primary'.toLowerCase()}
                 key={'Primary'}
@@ -54,6 +61,7 @@ const PoolTeam = ({ data, todayDate }) => {
                         <tbody>
 
                             {A.map(obj => {
+                                {console.log("call huahhhh")}
                                 return <tr key={obj.Serial}>
                                     <td>{obj.Player}</td>
                                     <td>{obj.Matches}</td>
@@ -197,6 +205,5 @@ const PoolTeam = ({ data, todayDate }) => {
         </CardColumns>
 
     )
-    cnt = 0
 };
 export default PoolTeam;
