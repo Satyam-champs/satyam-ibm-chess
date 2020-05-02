@@ -3,7 +3,7 @@ import '../App.css';
 import Table from 'react-bootstrap/Table'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import TableList from './TableList'
-const TablseSection = ({ data, header }) => {
+const TablseSection = ({ data, header, idx }) => {
 
     return (
         <div className="App1">
@@ -15,7 +15,7 @@ const TablseSection = ({ data, header }) => {
                         </tr>
                     </thead>
                 </Table>
-                <TableList data={data} matchDate={header} />
+                <TableList data={data} matchDate={header} indx={idx}/>
 
             </Table>
 

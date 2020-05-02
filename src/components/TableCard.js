@@ -10,10 +10,10 @@ const TableCard = ({ data,dateList }) => {
             <Table striped bordered size="sm" variant="dark">
                 
                 <tbody>
-                {dateList.map(obj => (
+                {dateList.map((obj,index) => (
                     <tr>
                         <td>
-                            <TablseSection data={data} header={obj}/> 
+                            <TablseSection data={data} header={obj} idx={index+1}/> 
                         </td>
                     </tr>
                 ))}

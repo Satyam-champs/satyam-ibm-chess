@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 var list = ["-"]
 
-const TableList = ({ data, matchDate }) => {
+const TableList = ({ data, matchDate, indx }) => {
 
 
 
@@ -36,15 +36,16 @@ const TableList = ({ data, matchDate }) => {
 
                 {data.map(obj => {
                     // console.log(this.state.count)
-                    console.log("*********"+list)
+                    // console.log("*********"+list)
                     if (!list.includes(obj[matchDate])) {
                         list.push(obj.Player) 
                         list.push(obj[matchDate]) 
+                        console.log("index"+indx+"  "+obj["result"+indx]+"  "+obj[matchDate]+"  "+obj.Player)
                         return <tr key={obj.Serial}>
                             <td className="Player1"> {obj[matchDate]}</td>
-                            <td> {obj.result1}</td>
+                            <td> {obj["result"+indx]}</td>
                             <td className="Player2"> {obj.Player}</td>
-                            <td> {obj.link}</td>
+                            <td> <a href={obj["link"+indx]}>{obj["link"+indx]}</a></td>
 
                             {/* {this.state.count += 1} */}
                             {/* {this.setState(state => {
