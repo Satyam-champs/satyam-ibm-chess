@@ -51,7 +51,7 @@ class NavBarRoute extends Component {
                     <Nav.Link href="/TodayMatchList">Today's Match</Nav.Link>
                     <Nav.Link href="/Scoreboard">Scoreboard</Nav.Link>
                     <Nav.Link href="/Schedule">Schedule</Nav.Link>
-                    <Nav.Link href="/PlayerList">PlayerWise Stats</Nav.Link>
+                    {/* <Nav.Link href="/PlayerList">PlayerWise Stats</Nav.Link> */}
                     <Nav.Link href="/GameRule">Rules</Nav.Link>
                     {/* <Nav.Link href="/Contact">Contact</Nav.Link> */}
                 </Nav>
