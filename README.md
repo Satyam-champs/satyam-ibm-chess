@@ -2,6 +2,14 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+In the project directory, you can run for intsalling all the dependencies:
+
+### `npm install`
+
+(OPTIONAl) For new dependencies , if needed use (--save is for it will installed thrughout the project) :
+
+### `npm install <dependency_name> --save`
+
 In the project directory, you can run:
 
 ### `npm start`
