@@ -1,5 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+For checking deployed project [IBM Chess Tournament] (https://satyam-ibm-chess.netlify.app/) .
+
 ## Available Scripts
 
 In the project directory, you can run for intsalling all the dependencies:
