@@ -17,7 +17,7 @@ class NavBarRoute extends Component {
         super(props)
         this.state = {
           todayDate: '',
-          dateList :["4/5/2020","6/5/2020","8/5/2020"]
+          dateList :["4/5/2020","6/5/2020","8/5/2020","22/5/2020"]
         }
       }
     
