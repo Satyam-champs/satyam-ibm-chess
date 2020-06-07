@@ -1,6 +1,16 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+For checking deployed project [IBM Chess Tournament](https://satyam-ibm-chess.netlify.app/) .
+
 ## Available Scripts
+
+In the project directory, you can run for intsalling all the dependencies:
+
+### `npm install`
+
+(OPTIONAl) For new dependencies , if needed use (--save is for it will installed thrughout the project) :
+
+### `npm install <dependency_name> --save`
 
 In the project directory, you can run:
 
